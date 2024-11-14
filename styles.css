@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: white; /* Arrière-plan général */
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #c4cccd; /* Arrière-plan du conteneur principal */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    background-color: #c4cccd; /* Couleur d'arrière-plan pour le titre */
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    background-color: white; /* Couleur d'arrière-plan pour l'image */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#tribute-info {
+    max-width: 600px;
+    background-color: #c4cccd; /* Couleur d'arrière-plan pour les infos */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#tribute-info p {
+    margin: 20px 0;
+}
+
+ul {
+    text-align: left;
+}
+
+#tribute-link {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0d6efd; /* Couleur du lien */
+    background-color: #c4cccd; /* Arrière-plan du lien */
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+#tribute-link:hover {
+    background-color: #bcd4c0; /* Changement de couleur au survol */
+}
